@@ -18,8 +18,8 @@ let fetchData = async()=>
     {
         let data = await fetch(url)
         if(data.ok){
-            jsonData = await data.json()
-            console.log(jsonData);
+            data = await data.json()
+            console.log(data);
         }
     }
 setInterval(async()=>{
@@ -27,4 +27,4 @@ setInterval(async()=>{
        fetchData()
     }
     
-},4000 *60)
+},40 *60)
