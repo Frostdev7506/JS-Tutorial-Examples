@@ -1,0 +1,18 @@
+{
+  "name": "streambasics",
+  "version": "1.0.0",
+  "description": "Basic Node js project which uses streams",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "Node",
+    "Streams"
+  ],
+  "author": "Neeraj Butola",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
